@@ -6,8 +6,26 @@ body {
 }
 
 h1 {
-    background-color: hsla(33, 78%, 91%, 0.616);
+    background-color: hwb(290 57% 2%);
     font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    background-color: hwb(290 57% 2%);
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;    
 }
 
 img {
@@ -16,16 +34,16 @@ img {
 }
 
 .contenedor-principal {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-    box-shadow: 0 35px 55px hsl(34, 78%, 91%);
+    box-shadow: 0 35px 55px hwb(290 57% 2%);
 }
 
 .contenedor-casas {
     width: 350px;
     display: inline-block;
     border: 2px solid hwb(298 25% 5%);
-    padding: 10px;
-    margin: 10px;
+    padding: 3%;
+    margin: 1%;
     text-align: justify;
 }
